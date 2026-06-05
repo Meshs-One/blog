@@ -171,7 +171,7 @@ response = client.chat.completions.create(
 
 ## Real Data: What Our Users Save
 
-Based on 200+ developers using Meshs One in early access:
+Based on early access developer feedback:
 
 | Metric | Before (Direct API) | After (Gateway) |
 |:---|:---|:---|
