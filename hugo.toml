@@ -75,6 +75,10 @@ buildExpired = false
   ShowCodeCopyButtons = true
   ShowWordCount = true
   ShowRssButtonInSectionTermList = true
+  ShowAuthor = true
+  ShowDate = true
+  ShowPostDate = true
+  DateFormat = "January 2, 2006"
 
   # Home page info
   [params.homeInfoParams]
