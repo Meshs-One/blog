@@ -1,0 +1,19 @@
+# Hugo build output
+/public/
+/resources/
+
+# Generated files by Hugo
+.hugo_build.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node (if adding npm-based tools later)
+node_modules/

@@ -1,0 +1,101 @@
+# ============================================
+# Meshs One Blog - Hugo Configuration
+# Domain: blog.meshs.one
+# ============================================
+
+baseURL = 'https://blog.meshs.one/'
+locale = 'en-us'
+title = 'Meshs One Blog'
+theme = 'PaperMod'
+
+# Enable robots.txt for SEO
+enableRobotsTXT = true
+
+# Build options
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Google Analytics (add later)
+# googleAnalytics = 'G-XXXXXXXXXX'
+
+# Syntax highlighting for code blocks
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+    noClasses = false
+    guessSyntax = true
+
+# Main menu
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Archives'
+  url = '/archives/'
+  weight = 2
+
+[[menu.main]]
+  name = 'Tags'
+  url = '/tags/'
+  weight = 3
+
+[[menu.main]]
+  name = 'API'
+  url = 'https://api.meshs.one'
+  weight = 4
+
+# Output formats
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+# PaperMod theme params
+[params]
+  # Site metadata
+  author = 'Meshs One Team'
+  description = 'Technical deep-dives on AI API infrastructure, multi-model routing, and the token economy. Built by the team behind api.meshs.one.'
+  keywords = ['AI API', 'API Gateway', 'Multi-model API', 'OpenRouter alternative', 'AI API relay', 'token economy', 'LLM API', 'Claude API', 'OpenAI API', 'Gemini API']
+
+  # Social links (shown in footer / profile)
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/meshs-one'
+
+  [[params.socialIcons]]
+    name = 'twitter'
+    url = 'https://x.com/Meshs_One'
+
+  # PaperMod features
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+
+  # Home page info
+  [params.homeInfoParams]
+    Title = 'Meshs One Blog'
+    Content = '''
+    **One API. All top AI models.**
+
+    Technical deep-dives, real cost comparisons, and practical tutorials
+    for developers building with AI APIs.
+
+    🛠️ Try our API: [api.meshs.one](https://api.meshs.one)
+    ⭐ Follow us: [@Meshs_One](https://x.com/Meshs_One)
+    📦 Code: [github.com/meshs-one](https://github.com/meshs-one)
+    '''
+
+  # Edit post link (GitHub)
+  [params.editPost]
+    URL = 'https://github.com/meshs-one/blog/tree/main/content'
+    Text = 'Suggest Changes'
+    appendFilePath = true
+
+  # SEO
+  [params.env]
+    production = true
