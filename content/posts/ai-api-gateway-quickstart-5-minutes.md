@@ -256,4 +256,20 @@ A: Default 100 requests/minute. Higher limits available on request for productio
 
 ---
 
+---
+
+## 🔗 Open Source — Star on GitHub
+
+All the code from this guide is open-source. Fork it, build with it, ship faster:
+
+| SDK | Repository | 
+|:---|:---|
+| **Node.js** | [Meshs-One/meshs-api-sdk](https://github.com/Meshs-One/meshs-api-sdk/?utm_source=blog&utm_medium=content&utm_campaign=post-ai-api-gateway-quickstart-5-minutes&utm_content=github-star-node) ⭐ |
+| **Python** | [Meshs-One/meshs-api-sdk-py](https://github.com/Meshs-One/meshs-api-sdk-py/?utm_source=blog&utm_medium=content&utm_campaign=post-ai-api-gateway-quickstart-5-minutes&utm_content=github-star-python) ⭐ |
+| **Blog Source** | [Meshs-One/blog](https://github.com/Meshs-One/blog/?utm_source=blog&utm_medium=content&utm_campaign=post-ai-api-gateway-quickstart-5-minutes&utm_content=github-star-blog) |
+
+⭐ **Star the repos** if this guide helped you — it helps other developers discover the project.
+
+---
+
 **Start building → [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-ai-api-gateway-quickstart-5-minutes&utm_content=cta-footer)** · $5 free credit, no card required.
