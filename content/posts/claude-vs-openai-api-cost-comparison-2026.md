@@ -127,7 +127,7 @@ Generating 1M output tokens/day for content, summaries, and translations.
 
 **Verdict**: For content pipelines, GPT-4o mini at $0.60/M output is **13× cheaper** than GPT-4.1 — and quality difference is often imperceptible for structured generation.
 
-> 💡 **Already convinced?** Skip the theory and benchmark your own costs. [Try MeshsOne free →](https://api.meshs.one) — $5 credit, no card required.
+> 💡 **Already convinced?** Skip the theory and benchmark your own costs. [Try MeshsOne free →](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-claude-vs-openai-api-cost-comparison-2026&utm_content=cta-body) — $5 credit, no card required.
 
 ---
 
@@ -310,7 +310,7 @@ A unified API gateway gives you:
 
 Benchmark your own workload with $5 in free credits — no credit card required (limited-time offer for new accounts).
 
-👉 **[Sign up free → api.meshs.one](https://api.meshs.one)**
+👉 **[Sign up free → api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-claude-vs-openai-api-cost-comparison-2026&utm_content=cta-footer)**
 
 Once registered, grab your API key from the dashboard and run the benchmark script above with `base_url = "https://api.meshs.one"`. One line change, instant comparison.
 

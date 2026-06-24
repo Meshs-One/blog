@@ -162,7 +162,7 @@ response = client.chat.completions.create(
 | Step | Action | Time |
 |:---|:---|:---|
 | 1 | Stop researching model hosting | Immediately |
-| 2 | Sign up at [api.meshs.one](https://api.meshs.one) | 2 minutes |
+| 2 | Sign up at [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-why-you-dont-need-to-train-your-own-model&utm_content=cta-body) | 2 minutes |
 | 3 | Replace your direct API calls with the gateway | 10 minutes (swap base_url) |
 | 4 | Set up model routing rules | 1 hour |
 | 5 | Monitor costs and optimize | Ongoing |
@@ -192,7 +192,7 @@ Until then — you have products to ship.
 
 ---
 
-**Try it free**: [api.meshs.one](https://api.meshs.one) — New users get $5 credit, no credit card required.
+**Try it free**: [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-why-you-dont-need-to-train-your-own-model&utm_content=cta-footer) — New users get $5 credit, no credit card required.
 
 **Follow us**: [@Meshs_One on X](https://x.com/Meshs_One) for API tips and updates.
 
