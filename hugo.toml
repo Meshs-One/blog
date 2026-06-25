@@ -8,8 +8,8 @@ locale = 'en-us'
 title = 'Meshs One Blog'
 theme = 'PaperMod'
 
-# Enable robots.txt for SEO
-enableRobotsTXT = true
+# robots.txt managed via static/robots.txt (GEO-optimized, allows AI crawlers)
+enableRobotsTXT = false
 
 # Build options
 buildDrafts = false
