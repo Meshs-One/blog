@@ -4,7 +4,8 @@
 # ============================================
 
 baseURL = 'https://blog.meshs.one/'
-locale = 'en-us'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
 title = 'Meshs One Blog'
 theme = 'PaperMod'
 
@@ -26,30 +27,146 @@ googleAnalytics = 'G-6J2EJMDDT1'
     noClasses = false
     guessSyntax = true
 
-# Main menu
-[[menu.main]]
-  name = 'Home'
-  url = '/'
-  weight = 1
-
-[[menu.main]]
-  name = 'Archives'
-  url = '/archives/'
-  weight = 2
-
-[[menu.main]]
-  name = 'Tags'
-  url = '/tags/'
-  weight = 3
-
-[[menu.main]]
-  name = 'API'
-  url = 'https://api.meshs.one'
-  weight = 4
-
 # Output formats
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
+
+# ============================================
+# Multilingual Configuration (6 languages)
+# English (default, served at /), others at /zh/, /ja/, /ko/, /de/, /fr/
+# ============================================
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight = 1
+    title = "Meshs One Blog"
+    [[languages.en.menu.main]]
+      name = 'Home'
+      url = '/'
+      weight = 1
+    [[languages.en.menu.main]]
+      name = 'Archives'
+      url = '/archives/'
+      weight = 2
+    [[languages.en.menu.main]]
+      name = 'Tags'
+      url = '/tags/'
+      weight = 3
+    [[languages.en.menu.main]]
+      name = 'API'
+      url = 'https://api.meshs.one'
+      weight = 4
+
+  [languages.zh]
+    languageName = "中文"
+    languageCode = "zh"
+    weight = 2
+    title = "Meshs One 博客"
+    [[languages.zh.menu.main]]
+      name = '首页'
+      url = '/zh/'
+      weight = 1
+    [[languages.zh.menu.main]]
+      name = '归档'
+      url = '/zh/archives/'
+      weight = 2
+    [[languages.zh.menu.main]]
+      name = '标签'
+      url = '/zh/tags/'
+      weight = 3
+    [[languages.zh.menu.main]]
+      name = 'API'
+      url = 'https://api.meshs.one'
+      weight = 4
+
+  [languages.ja]
+    languageName = "日本語"
+    languageCode = "ja"
+    weight = 3
+    title = "Meshs One ブログ"
+    [[languages.ja.menu.main]]
+      name = 'ホーム'
+      url = '/ja/'
+      weight = 1
+    [[languages.ja.menu.main]]
+      name = 'アーカイブ'
+      url = '/ja/archives/'
+      weight = 2
+    [[languages.ja.menu.main]]
+      name = 'タグ'
+      url = '/ja/tags/'
+      weight = 3
+    [[languages.ja.menu.main]]
+      name = 'API'
+      url = 'https://api.meshs.one'
+      weight = 4
+
+  [languages.ko]
+    languageName = "한국어"
+    languageCode = "ko"
+    weight = 4
+    title = "Meshs One 블로그"
+    [[languages.ko.menu.main]]
+      name = '홈'
+      url = '/ko/'
+      weight = 1
+    [[languages.ko.menu.main]]
+      name = '아카이브'
+      url = '/ko/archives/'
+      weight = 2
+    [[languages.ko.menu.main]]
+      name = '태그'
+      url = '/ko/tags/'
+      weight = 3
+    [[languages.ko.menu.main]]
+      name = 'API'
+      url = 'https://api.meshs.one'
+      weight = 4
+
+  [languages.de]
+    languageName = "Deutsch"
+    languageCode = "de"
+    weight = 5
+    title = "Meshs One Blog"
+    [[languages.de.menu.main]]
+      name = 'Startseite'
+      url = '/de/'
+      weight = 1
+    [[languages.de.menu.main]]
+      name = 'Archiv'
+      url = '/de/archives/'
+      weight = 2
+    [[languages.de.menu.main]]
+      name = 'Tags'
+      url = '/de/tags/'
+      weight = 3
+    [[languages.de.menu.main]]
+      name = 'API'
+      url = 'https://api.meshs.one'
+      weight = 4
+
+  [languages.fr]
+    languageName = "Français"
+    languageCode = "fr"
+    weight = 6
+    title = "Meshs One Blog"
+    [[languages.fr.menu.main]]
+      name = 'Accueil'
+      url = '/fr/'
+      weight = 1
+    [[languages.fr.menu.main]]
+      name = 'Archives'
+      url = '/fr/archives/'
+      weight = 2
+    [[languages.fr.menu.main]]
+      name = 'Tags'
+      url = '/fr/tags/'
+      weight = 3
+    [[languages.fr.menu.main]]
+      name = 'API'
+      url = 'https://api.meshs.one'
+      weight = 4
 
 # PaperMod theme params
 [params]
