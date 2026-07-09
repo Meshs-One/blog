@@ -137,7 +137,7 @@ Anthropic には Haiku 以下のバジェットティアの提供はありませ
 
 **結論**: コンテンツパイプラインにおいて、GPT-4o mini は出力100万トークンあたり $0.60 と、GPT-4.1 の **13分の1** のコストです。構造化生成における品質の差は、多くの場合、感知できないレベルです。
 
-> 💡 **もう決心しましたか？** 理論はさておき、ご自身のコストをベンチマークしてみましょう。 [MesgsOne を無料で試す →](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-claude-vs-openai-api-cost-comparison-2026&utm_content=cta-body) — $5 クレジット、クレジットカード不要。
+> 💡 **もう決心しましたか？** 理論はさておき、ご自身のコストをベンチマークしてみましょう。 [Meshs One を無料で試す →](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-claude-vs-openai-api-cost-comparison-2026&utm_content=cta-body) — $5 クレジット、クレジットカード不要。
 
 ---
 
