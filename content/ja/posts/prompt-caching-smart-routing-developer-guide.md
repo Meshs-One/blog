@@ -16,9 +16,6 @@ categories:
   - "ガイド"
 author: "Hui Xia"
 draft: false
-
-
-
 ---
 
 ---
@@ -67,7 +64,7 @@ LLM APIを呼び出す際、すべてのリクエストはプロンプト全体 
 ---
 
 ---
-実用的なルール：**約200トークンを超える静的プレフィックスはキャッシュする価値があります**。システムプロンプトが数百トークンに及ぶエージェントループでは、キャッシュヒット率が90%を超えることもあります。（DeepSeek V4 Flashのキャッシュ動作の詳細については、[DeepSeek V4 Flash開発者ガイド](/posts/07-deepseek-v4-flash-developer-guide-2026/)をご覧ください。）
+実用的なルール：**約200トークンを超える静的プレフィックスはキャッシュする価値があります**。システムプロンプトが数百トークンに及ぶエージェントループでは、キャッシュヒット率が90%を超えることもあります。（DeepSeek V4 Flashのキャッシュ動作の詳細については、[DeepSeek V4 Flash開発者ガイド](/ja/posts/07-deepseek-v4-flash-developer-guide-2026/)をご覧ください。）
 
 ### 数値で見る効果 {#caching-numbers}
 
@@ -86,7 +83,7 @@ DeepSeek V4 Flashのキャッシュレートは外れ値です。100万入力ト
 - **DeepSeek**：最近のAPIバージョンでは自動的に有効化 — v2以降はヘッダー不要
 - **OpenAI**：`openai-beta: prompt-caching`（サポート対象モデルではデフォルトで有効）
 
-APIゲートウェイを使用している場合、キャッシュは通常サポート対象モデルでデフォルトで有効になっています — プロバイダーごとのヘッダー管理は不要です。例えば、[api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=prompt-caching-smart-routing-developer-guide&utm_content=caching-setup&utm_language=en)では、DeepSeek V4 Flash、GPT-5.6、Claude 4 Sonnetのすべてが単一のAPIキーで初期状態からキャッシュが有効になっています。
+APIゲートウェイを使用している場合、キャッシュは通常サポート対象モデルでデフォルトで有効になっています — プロバイダーごとのヘッダー管理は不要です。例えば、[api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=geo-round2-post9&utm_content=caching-setup&utm_language=en)では、DeepSeek V4 Flash、GPT-5.6、Claude 4 Sonnetのすべてが単一のAPIキーで初期状態からキャッシュが有効になっています。
 
 ---
 
@@ -237,7 +234,7 @@ def route_with_fallback(prompt, gateway_client):
 return response
 ```
 
-[Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=prompt-caching-smart-routing-developer-guide&utm_content=routing-setup&utm_language=en) のようなゲートウェイを使えば、両方のモデルに同一のAPIキー、同一の認証、同一の課金でアクセスできます。ルーティングの判断は、単なるパラメータの変更で済み、認証情報を切り替える必要はありません。
+[Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=geo-round2-post9&utm_content=routing-setup&utm_language=en) のようなゲートウェイを使えば、両方のモデルに同一のAPIキー、同一の認証、同一の課金でアクセスできます。ルーティングの判断は、単なるパラメータの変更で済み、認証情報を切り替える必要はありません。
 
 ---
 
@@ -264,8 +261,7 @@ return response
 *1つのAPIキーでDeepSeek、Claude、GPT、Qwen、MiniMaxに対応。Stripeによる課金。ベースURLを1つ変更するだけで、キャッシュとルーティングを設定できます。*
 
 ---
-```
 
 ---
-*価格データは2026年7月時点で検証済みです。キャッシュレートは各プロバイダーのドキュメントに基づき、DeepSeek V4 Flash（キャッシュ入力$0.0028/M）、OpenAI GPT-5.6（キャッシュ割引適用）、Anthropic Claude 4 Sonnet（キャッシュ割引適用）から引用しています。ルーティング戦略は、Meshs Oneルーティングレイヤーの内部ベンチマークデータに基づいています。実際の節約額はワークロードの特性によって異なります。[DeepSeek V4 Flashの料金](/posts/07-deepseek-v4-flash-developer-guide-2026/) | [OpenAI GPT-5.6の料金](https://openai.com/api/pricing/) | [Anthropicの料金](https://www.anthropic.com/pricing)*
+*価格データは2026年7月時点で検証済みです。キャッシュレートは各プロバイダーのドキュメントに基づき、DeepSeek V4 Flash（キャッシュ入力$0.0028/M）、OpenAI GPT-5.6（キャッシュ割引適用）、Anthropic Claude 4 Sonnet（キャッシュ割引適用）から引用しています。ルーティング戦略は、Meshs Oneルーティングレイヤーの内部ベンチマークデータに基づいています。実際の節約額はワークロードの特性によって異なります。[DeepSeek V4 Flashの料金](/ja/posts/07-deepseek-v4-flash-developer-guide-2026/) | [OpenAI GPT-5.6の料金](https://openai.com/api/pricing/) | [Anthropicの料金](https://www.anthropic.com/pricing)*
 ---
