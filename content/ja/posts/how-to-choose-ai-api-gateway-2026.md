@@ -1,4 +1,27 @@
 ---
+title: "2026年のAI APIゲートウェイ選び方：意思決定フレームワーク"
+date: "2026-06-26"
+translationKey: "post-06-how-to-choose-ai-api-gateway-2026"
+draft: false
+tags:
+  - "AI API Gateway"
+  - "API Gateway選定"
+  - "マルチモデルAPI"
+  - "AIインフラ"
+  - "APIプロキシ"
+  - "開発者ツール"
+  - "LLMアクセス"
+categories:
+  - "業界インサイト"
+series:
+  - "AI API Best Practices"
+author: "Meshs One Team"
+description: "2026年に向けたAI APIゲートウェイ選定のための第一原理フレームワーク：8つの評価基準、3つのゲートウェイタイプ、そしてスタックに合わせた意思決定マトリクス"
+ShowToc: true
+TocOpen: true
+slug: "how-to-choose-ai-api-gateway-2026"
+
+---
 
 title: "2026年のAI APIゲートウェイ選び方：意思決定フレームワーク"
 date: "2026-06-26"

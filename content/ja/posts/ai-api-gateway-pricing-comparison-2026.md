@@ -1,4 +1,24 @@
 ---
+title: "AI APIゲートウェイ 2026：DeepSeek、Qwen、Claudeへの最安アクセスを実現するプラットフォームはどれか"
+slug: "ai-api-gateway-pricing-comparison-2026"
+date: "2026-07-01T23:36:00+08:00"
+translationKey: "post-08-ai-api-gateway-pricing-comparison-2026"
+description: "6つのAI APIゲートウェイ（OpenRouter、Fireworks AI、Together AI、DeepInfra、Groq、Meshs One）におけるDeepSeek V4 Flash/Pro、Qwen 3.7 Max、MiniMax M3の100万トークンあたりの実勢価格を比較。隠れたコストの落とし穴とモデル別の内訳を解説します。"
+tags:
+  - "AI API"
+  - "API Gateway"
+  - "価格比較"
+  - "DeepSeek"
+  - "Qwen"
+  - "MiniMax"
+  - "OpenRouter"
+  - "コスト最適化"
+categories:
+  - "ガイド"
+author: "Hui Xia"
+draft: false
+
+---
 
 title: "AI APIゲートウェイ 2026：DeepSeek、Qwen、Claudeへの最安アクセスを実現するプラットフォームはどれか"
 slug: "ai-api-gateway-pricing-comparison-2026"

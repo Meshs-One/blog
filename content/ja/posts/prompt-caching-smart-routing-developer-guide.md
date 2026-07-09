@@ -1,4 +1,25 @@
 ---
+title: "プロンプトキャッシング + スマートルーティング：LLM費用を70%削減するデベロッパーガイド"
+slug: "prompt-caching-smart-routing-developer-guide"
+date: "2026-07-07T08:00:00+08:00"
+translationKey: "post-09-prompt-caching-smart-routing-developer-guide"
+description: "プロンプトキャッシングとモデルルーティングがどのように連携して70%以上のコスト削減を実現するか — 実際の数値、設定例、そして今日から実装できる信頼度しきい値戦略をご紹介します。"
+tags:
+  - "AI API"
+  - "コスト最適化"
+  - "プロンプトキャッシング"
+  - "モデルルーティング"
+  - "LLM"
+  - "DeepSeek"
+  - "パフォーマンスガイド"
+categories:
+  - "ガイド"
+author: "Hui Xia"
+draft: false
+
+
+
+---
 
 
 

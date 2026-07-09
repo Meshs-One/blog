@@ -1,4 +1,27 @@
 ---
+title: "AI API Gateway クイックスタート：1つのキーで5分で30以上のモデル"
+date: "2026-06-24"
+translationKey: "post-03-ai-api-gateway-quickstart-5-minutes"
+lastmod: "2026-06-24"
+draft: false
+tags:
+  - "API Gateway"
+  - "AI API"
+  - "クイックスタート"
+  - "開発者ガイド"
+  - "マルチモデル"
+  - "OpenAI互換"
+categories:
+  - "スタートガイド"
+series:
+  - "AI API Best Practices"
+author: "Meshs One Team"
+description: "5つの異なるAI APIキーの管理に疲れていませんか？この5分ガイドでは、Claude、GPT-5、Gemini、DeepSeekなど30以上のモデルに1つのOpenAI互換エンドポイントでアクセスする方法を、Node.js、Python、curlのコード例付きで解説します。"
+ShowToc: true
+TocOpen: true
+slug: "ai-api-gateway-quickstart-5-minutes"
+
+---
 
 title: "AI API Gateway クイックスタート：1つのキーで5分で30以上のモデル"
 date: "2026-06-24"
