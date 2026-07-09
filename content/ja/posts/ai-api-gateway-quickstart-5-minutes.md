@@ -23,30 +23,6 @@ slug: "ai-api-gateway-quickstart-5-minutes"
 
 ---
 
-title: "AI API Gateway クイックスタート：1つのキーで5分で30以上のモデル"
-date: "2026-06-24"
-translationKey: "post-03-ai-api-gateway-quickstart-5-minutes"
-lastmod: "2026-06-24"
-draft: false
-tags:
-  - "API Gateway"
-  - "AI API"
-  - "Quickstart"
-  - "Developer Guide"
-  - "Multi-Model"
-  - "OpenAI Compatible"
-categories:
-  - "Getting Started"
-series:
-  - "AI API Best Practices"
-author: "Meshs One Team"
-description: "about managing multiple AI API keys and accessing various models through one endpoint"
-ShowToc: true
-TocOpen: true
-slug: "ai-api-gateway-quickstart-5-minutes"
-
----
-
 ---
 *By **Meshs One Team** · 2026年6月24日 · 7分で読めます*
 

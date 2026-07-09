@@ -1,0 +1,32 @@
+{{- /* Footer custom content area start */ -}}
+{{- /* Post-footer CTA bar for articles */ -}}
+{{- if .IsPage }}
+{{- $campaign := .Slug | default (.File.ContentBaseName) | default "blog-post" }}
+{{- $lang := .Lang }}
+{{- $utm := printf "utm_source=blog&utm_medium=post&utm_campaign=%s&utm_content=footer-sticky&utm_language=%s" $campaign $lang }}
+<div id="post-cta-sticky" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 999; background: var(--theme); border-top: 1px solid var(--border); padding: 0.8em 1.5em; text-align: center; box-shadow: 0 -2px 8px rgba(0,0,0,0.08);">
+  <span style="margin-right: 1em; font-size: 0.9em;">
+    {{ if eq $lang "zh" }}一个 API Key 接入 30+ 模型？{{ else if eq $lang "ja" }}1つのAPIキーで30以上のモデルにアクセス？{{ else if eq $lang "ko" }}하나의 API 키로 30+ 모델에 접속?{{ else if eq $lang "de" }}Ein API-Key für 30+ Modelle?{{ else if eq $lang "fr" }}Une seule clé API pour 30+ modèles ?{{ else }}One API key for 30+ models?{{ end }}
+  </span>
+  <a href="https://api.meshs.one/?{{ $utm }}" target="_blank" rel="noopener" style="display: inline-block; padding: 0.5em 1.5em; background: var(--primary); color: var(--theme); border-radius: 6px; font-weight: 600; text-decoration: none; font-size: 0.95em;">
+    {{ if eq $lang "zh" }}免费试用 →{{ else if eq $lang "ja" }}無料で試す →{{ else if eq $lang "ko" }}무료 체험 →{{ else if eq $lang "de" }}Kostenlos testen →{{ else if eq $lang "fr" }}Essai gratuit →{{ else }}Try it free →{{ end }}
+  </a>
+</div>
+<script>
+(function() {
+  // Show sticky CTA after user scrolls past 60% of the article
+  var sticky = document.getElementById('post-cta-sticky');
+  if (!sticky) return;
+  var shown = false;
+  window.addEventListener('scroll', function() {
+    if (shown) return;
+    var scrollPercent = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight;
+    if (scrollPercent > 0.6) {
+      shown = true;
+      sticky.style.display = 'block';
+    }
+  }, { passive: true });
+})();
+</script>
+{{- end }}
+{{- /* Footer custom content area end */ -}}

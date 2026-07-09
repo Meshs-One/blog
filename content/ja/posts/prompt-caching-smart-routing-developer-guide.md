@@ -21,30 +21,6 @@ draft: false
 
 ---
 
-
-
-title: "We need to translate the English title into Japanese following the given localization style. The title is \"Prompt Caching + Smart Routing: The Developer's Guide to Cutting 70% of Your LLM Bill\". Key points: Use です/ます体? Actually title doesn't need desu/masu, but the style reference says use desu/masu consistently. However titles often use plain form. But instruction says \"Use です/ます体 consistently\" - likely for body text. For title, we can use plain or polite? Better to follow tech article titles in Zenn/Qiita: they often use plain form or である調. But the instruction says \"consistently\" - maybe apply to entire translation? Since only one sentence, we can make it polite. But title is not a sentence. Let's see: \"The Developer's Guide to Cutting 70% of Your LLM Bill\" - could be translated as a noun phrase. I'll translate as: プロンプトキャッシング + スマートルーティング：LLM費用を70%削減するデベロッパーガイド But need to use Japanese tech terminology: \"Prompt Caching\" → プロンプトキャッシング (katakana), \"Smart Routing\" → スマートルーティング, \"Developer's Guide\" → デベロッパーガイド or 開発者向けガイド. \"Cutting 70% of Your LLM Bill\" → LLM費用を70%削減. Use 70% as 70%? Or 7割? The style says numbers use Japanese format (10,000→1万) but percentage? 70% is fine as 70% or 7割? In tech articles, often use 70% or 7割. I'll use 70% for clarity. Also \"Your\" can be omitted or translated as あなたの but in Japanese tech writing often use ユーザーの or just の. I'll use あなたの? Better to use ユーザーの or simply の. Since it's a guide for developers, \"デベロッパー向け\" might be better. Final translation: プロンプトキャッシング + スマートルーティング：LLM費用を70%削減するデベロッパーガイド But"
-slug: "prompt-caching-smart-routing-developer-guide"
-date: "2026-07-07T08:00:00+08:00"
-translationKey: "post-09-prompt-caching-smart-routing-developer-guide"
-description: "プロンプトキャッシングとモデルルーティングがどのように連携して70%以上のコスト削減を実現するか — 実際の数値、設定例、そして今日から実装できる信頼度しきい値戦略をご紹介します。"
-tags:
-  - "AI API"
-  - "コスト最適化"
-  - "プロンプトキャッシング"
-  - "モデルルーティング"
-  - "LLM"
-  - "DeepSeek"
-  - "パフォーマンスガイド"
-categories:
-  - "guides"
-author: "Hui Xia"
-draft: false
-
-
-
----
-
 ---
 **公開日: 2026年7月7日。** すべての料金は100万トークンあたりの米ドル表示です。キャッシュ料金は2026年7月時点のプロバイダ公開レートに基づきます。削減率はフルプライス（キャッシュなし）のベースラインに対する割合です。
 

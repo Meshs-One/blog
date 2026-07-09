@@ -20,27 +20,6 @@ draft: false
 
 ---
 
-title: "AI APIゲートウェイ 2026：DeepSeek、Qwen、Claudeへの最安アクセスを実現するプラットフォームはどれか"
-slug: "ai-api-gateway-pricing-comparison-2026"
-date: "2026-07-01T23:36:00+08:00"
-translationKey: "post-08-ai-api-gateway-pricing-comparison-2026"
-description: "Real per-million-token pricing across 6 gateway platforms for DeepSeek V4 Flash/Pro, Qwen 3.7 Max, and MiniMax M3 — with hidden cost traps and model-by-model breakdown."
-tags:
-  - "AI API"
-  - "API Gateway"
-  - "Pricing Comparison"
-  - "DeepSeek"
-  - "Qwen"
-  - "MiniMax"
-  - "OpenRouter"
-  - "Cost Optimization"
-categories:
-  - "guides"
-author: "Hui Xia"
-draft: false
-
----
-
 ---
 **価格検証日：2026年7月1日。** すべての数値はUSD/100万トークン（入力/出力）です。キャッシュ価格、プロモーションクレジット、ボリュームディスカウントは基本比較から除外しています。検証用のソースリンクはインラインで提供しています。
 

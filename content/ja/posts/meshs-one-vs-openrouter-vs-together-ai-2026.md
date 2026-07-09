@@ -23,30 +23,6 @@ slug: "meshs-one-vs-openrouter-vs-together-ai-2026"
 
 ---
 
-title: "a title/comparison headline"
-date: "2026-06-25"
-translationKey: "post-05-meshs-one-vs-openrouter-vs-together-ai-2026"
-draft: false
-tags:
-  - "AI API Gateway"
-  - "OpenRouter"
-  - "Together AI"
-  - "API Comparison"
-  - "Multi-Model API"
-  - "Developer Tools"
-  - "AI Cost Optimization"
-categories:
-  - "Industry Insights"
-series:
-  - "AI API Best Practices"
-author: "Meshs One Team"
-description: "2026 comparison of Meshs One, OpenRouter, and Together AI: pricing, models, failover, and real cost calculations to help you pick the right AI API gateway."
-ShowToc: true
-TocOpen: true
-slug: "meshs-one-vs-openrouter-vs-together-ai-2026"
-
----
-
 *By **Meshs One チーム** · 2026年6月26日 · 7分で読めます*
 
 ---

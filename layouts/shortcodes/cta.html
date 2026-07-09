@@ -1,0 +1,24 @@
+{{- /* CTA Shortcode - Consistent call-to-action with UTM tracking
+   Usage: {{< cta text="Get your API key" position="body" >}}
+   Parameters:
+     text     - Button/link text (default: "Start building →")
+     position - Content position identifier for UTM (default: "cta")
+     url      - Override URL (default: api.meshs.one with UTM)
+     inline   - If "true", renders as inline link instead of button
+*/ -}}
+{{- $campaign := .Page.Slug | default (.Page.File.ContentBaseName) | default "blog-post" }}
+{{- $position := .Get "position" | default "cta" }}
+{{- $text := .Get "text" | default "Start building →" }}
+{{- $lang := .Page.Lang }}
+{{- $inline := .Get "inline" | default "false" }}
+{{- $utm := printf "utm_source=blog&utm_medium=post&utm_campaign=%s&utm_content=%s&utm_language=%s" $campaign $position $lang }}
+{{- $url := .Get "url" | default (printf "https://api.meshs.one/?%s" $utm) }}
+{{- if eq $inline "true" }}
+[{{ $text }}]({{ $url }})
+{{- else }}
+<div class="post-cta" style="margin: 2em 0; padding: 1.2em 1.5em; background: var(--code-bg); border-radius: 8px; border: 1px solid var(--border); text-align: center;">
+  <a href="{{ $url }}" target="_blank" rel="noopener" style="display: inline-block; padding: 0.7em 1.8em; background: var(--primary); color: var(--theme); border-radius: 6px; font-weight: 600; text-decoration: none; font-size: 1.05em;">
+    {{ $text }}
+  </a>
+</div>
+{{- end }}

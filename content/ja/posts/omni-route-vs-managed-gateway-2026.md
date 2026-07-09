@@ -18,25 +18,6 @@ draft: false
 
 ---
 
-title: "OmniRoute vs マネージドAIゲートウェイ：セルフホストの適切なタイミング"
-slug: "omni-route-vs-managed-gateway-2026"
-date: "2026-07-08T01:00:00+08:00"
-translationKey: "post-10-omni-route-vs-managed-gateway-2026"
-description: "OmniRouteは、230以上のプロバイダを1つのオープンソースパッケージで提供します。しかし、セルフホスティングの本当のコストはサーバー代ではなく、メンテナンス、監視、そして午前3時のインシデント対応です。セルフホスティングとマネージドサービスの使い分けについて解説します。"
-tags:
-  - "DeepSeek"
-  - "benchmark"
-  - "pricing"
-  - "comparison"
-  - "AI API"
-  - "cost optimization"
-categories:
-  - "analysis"
-author: "Hui Xia"
-draft: false
-
----
-
 ---
 **公開日: 2026年7月8日。** 本比較は2026年7月時点の公開ドキュメントに基づきます。インフラコストの見積もりはAWSおよびHetznerの公開価格表から引用。プロバイダ数と機能一覧は、2026年7月時点のOmniRouteのGitHub READMEを反映しています。
 

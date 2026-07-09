@@ -1,0 +1,85 @@
+{{- /* Head custom content area start */ -}}
+{{- /* GA4 Enhanced Event Tracking - CTA clicks, scroll depth, outbound links */ -}}
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+<script>
+(function() {
+  'use strict';
+
+  // Wait for gtag to be ready
+  function gtag() { dataLayer.push(arguments); }
+
+  // Track CTA link clicks (outbound links to api.meshs.one)
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('a');
+    if (!link) return;
+
+    var href = link.getAttribute('href') || '';
+    var text = link.textContent.trim().substring(0, 100);
+
+    // Track outbound clicks to api.meshs.one
+    if (href.includes('api.meshs.one')) {
+      gtag('event', 'cta_click', {
+        'event_category': 'outbound',
+        'event_label': text,
+        'link_url': href,
+        'link_text': text,
+        'page_language': '{{ .Lang }}',
+        'page_path': '{{ .RelPermalink }}'
+      });
+    }
+
+    // Track social link clicks
+    if (href.includes('x.com/Meshs_One') || href.includes('github.com/meshs-one')) {
+      gtag('event', 'social_click', {
+        'event_category': 'social',
+        'event_label': href.includes('x.com') ? 'x' : 'github',
+        'link_url': href,
+        'page_language': '{{ .Lang }}'
+      });
+    }
+  });
+
+  // Track scroll depth (25%, 50%, 75%, 100%)
+  var scrollDepths = [25, 50, 75, 100];
+  var scrollTracked = {};
+  window.addEventListener('scroll', function() {
+    var scrollPercent = Math.round(
+      (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100
+    );
+    scrollDepths.forEach(function(depth) {
+      if (scrollPercent >= depth && !scrollTracked[depth]) {
+        scrollTracked[depth] = true;
+        gtag('event', 'scroll_depth', {
+          'event_category': 'engagement',
+          'event_label': depth + '%',
+          'value': depth,
+          'page_language': '{{ .Lang }}',
+          'page_path': '{{ .RelPermalink }}'
+        });
+      }
+    });
+  }, { passive: true });
+
+  // Track time on page (30s, 60s, 120s)
+  var timeTracked = {};
+  var timePoints = [30, 60, 120];
+  setInterval(function() {
+    timePoints.forEach(function(sec) {
+      if (!timeTracked[sec]) {
+        timeTracked[sec] = true;
+        setTimeout(function() {
+          gtag('event', 'time_on_page', {
+            'event_category': 'engagement',
+            'event_label': sec + 's',
+            'value': sec,
+            'page_language': '{{ .Lang }}',
+            'page_path': '{{ .RelPermalink }}'
+          });
+        }, sec * 1000);
+      }
+    });
+  }, 1000);
+})();
+</script>
+{{- end }}
+{{- /* Head custom content area end */ -}}
