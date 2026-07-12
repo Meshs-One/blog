@@ -15,7 +15,7 @@ draft: false
 
 ---
 
-The 200-page *Token Factory Technology & Industry Development White Paper* from DataCanvas (¥50B+ market cap) and InfoQ lays out a framework where **China's AI inference cost is 1/6 to 1/10 of US equivalents**, projects the token market crossing ¥110B by 2029, and formally defines "Token Aggregators" as a core industry role. I went through every page so you don't have to — here are the four insights that matter most if you're choosing an AI API provider in 2026.
+The 200-page *Token Factory Technology & Industry Development White Paper* — co-published by DataCanvas (九章云极, market cap > ¥50B) and InfoQ — lays out a framework where **China's AI inference cost is 1/6 to 1/10 of US equivalents**, projects the token market crossing ¥110B by 2029, and formally defines "Token Aggregators" as a core industry role. The four insights below extract what matters most for anyone evaluating AI API providers in 2026.
 
 *Disclosure: I work with Meshs One, an AI API gateway that provides access to both Chinese and Western models. The analysis below interprets publicly available industry data from the referenced white paper. Where Meshs One is mentioned, it's as one participant in a broader ecosystem.*
 
@@ -77,7 +77,7 @@ DeepSeek's Mixture-of-Experts architecture and aggressive quantization technique
 
 ### 3. Engineering Scale
 
-China trains more AI engineers annually than any other country. The operational cost of running large-scale inference clusters is structurally lower due to labor arbitrage and dense concentration of talent in cities like Shenzhen, Beijing, and Hangzhou.
+China trains more AI engineers annually than most other countries. The operational cost of running large-scale inference clusters is structurally lower due to labor arbitrage and dense concentration of talent in cities like Shenzhen, Beijing, and Hangzhou.
 
 **The takeaway for developers:** If you're paying US-equivalent prices for Chinese models through a Western gateway, you're losing the structural advantage. The cost gap isn't a promotional discount — it's built into the physics of the supply chain.
 
@@ -85,7 +85,7 @@ China trains more AI engineers annually than any other country. The operational 
 
 ## Insight 2: "Token Going Global" — The Regulatory Framework That Validates Cross-Border API Services
 
-This is the section that made me sit up straighter. Chapter 5, Section 4 of the white paper is devoted to "Token Going Global" (Token出海), and it reads almost like a description of what Meshs One was built to do:
+This is the section that carries the most direct strategic signal for API gateway providers. Chapter 5, Section 4 of the white paper is devoted to "Token Going Global" (Token出海), and it describes a model that maps directly onto what cross-border API platforms do:
 
 > "Token Going Global refers to the compliant cross-border provision of AI inference services: data remains within China, inference is completed domestically, results are delivered via API, billed by token — achieving 'compute stays domestic, value flows globally,' in strict compliance with data security and cross-border service regulations."
 
@@ -156,7 +156,7 @@ The practical implication: if SCU becomes an industry standard, the competitive 
 
 ## The Bottom Line for Developers
 
-I read a lot of industry reports. Most of them are either too abstract to be useful or too self-promotional to be trusted. The Token Factory white paper is neither — it's a data-rich, third-party document that validates trends I've observed firsthand in the API pricing landscape over the past year.
+Industry reports tend to fall into two camps: too abstract to be useful, or too self-promotional to be trusted. The Token Factory white paper is neither — it's a data-rich, third-party document that validates structural trends visible in the API pricing landscape since 2025.
 
 Here's what I want you to take away:
 
