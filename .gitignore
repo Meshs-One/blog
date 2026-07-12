@@ -17,3 +17,10 @@ Thumbs.db
 
 # Node (if adding npm-based tools later)
 node_modules/
+
+# Temp / generated files
+nul
+nul/
+tmp/
+content/posts/11-token-factory-white-paper-china-ai-api-global-shift.acceptance.md
+content/zh/posts/_backup/
