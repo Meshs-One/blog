@@ -198,7 +198,7 @@ A balanced analysis requires acknowledging where the models have struggled.
 
 Every model mentioned in this article — GLM-5.1, DeepSeek V4 Pro, GPT-5.5, Claude Opus 4.8, Gemini 3.5, Kimi K2.6, and more — is available through a single unified API gateway.
 
-[Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=article&utm_campaign=ai-world-cup-2026) provides a unified API to 200+ frontier AI models including all the models tracked on the FootballArena leaderboard. Whether you want to build your own prediction engine, run ensemble comparisons, or experiment with multi-model architectures, you can access everything through one API key, one consistent interface, and one billing pipeline.
+[Meshs One](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=article&utm_campaign=ai-world-cup-2026) provides a unified API to 200+ frontier AI models including all the models tracked on the FootballArena leaderboard. Whether you want to build your own prediction engine, run ensemble comparisons, or experiment with multi-model architectures, you can access everything through one API key, one consistent interface, and one billing pipeline.
 
 If you're building a sports analytics platform, a multi-model prediction system, or just want to test whether you can beat the models' consensus pick for the World Cup final, Meshs One gives you programmatic access to the full suite.
 
@@ -221,4 +221,4 @@ What is also clear: we are watching the first World Cup where AI predictions are
 
 *This article was produced using real-time data from [FootballArena.ai](https://footballarena.ai) leaderboard, a Chinese tech influencer Gao Qingyi's multi-model comparison test on Weibo, and a joint evaluation by Lenovo and Migu published on July 12, 2026. All model predictions are as of July 14, 2026.*
 
-*Want to build with the same models? Start free at [Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=article&utm_campaign=ai-world-cup-2026).*
+*Want to build with the same models? Start free at [Meshs One](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=article&utm_campaign=ai-world-cup-2026).*

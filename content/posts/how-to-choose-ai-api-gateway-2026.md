@@ -37,7 +37,7 @@ Before evaluating features, you need to know what category of gateway you're loo
 
 **Type 2: Managed Inference Platform.** The gateway hosts open-weight models (Llama, DeepSeek, Qwen) on its own GPU infrastructure. No proprietary models — no Claude, no GPT-4 — but you get fine-tuning capabilities, dedicated throughput, and potentially lower latency since the models run on-site. Together AI is the canonical example.
 
-**Type 3: Bulk-Negotiated Gateway.** A multi-provider router that also negotiates bulk pricing with model providers and passes the discount to users. You get the breadth of a router plus cost savings from aggregated demand. [Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post6&utm_content=intro-link) operates in this category.
+**Type 3: Bulk-Negotiated Gateway.** A multi-provider router that also negotiates bulk pricing with model providers and passes the discount to users. You get the breadth of a router plus cost savings from aggregated demand. [Meshs One](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post6&utm_content=intro-link) operates in this category.
 
 The distinction matters because each type optimizes for something different:
 
@@ -238,7 +238,7 @@ This entire process should take less than a day if both gateways are OpenAI-comp
 
 The best way to evaluate a gateway is to test it against your own workload. Reading feature tables is useful, but running real API calls through real models tells you more in 5 minutes than any comparison post can in 5,000 words.
 
-Here's how to test [Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post6&utm_content=cta-testing) against your criteria:
+Here's how to test [Meshs One](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post6&utm_content=cta-testing) against your criteria:
 
 **Step 1: Create a free account.** Free credits to start, no credit card required.
 
@@ -317,7 +317,7 @@ The code examples in this guide are open-source. Fork them, build with them, shi
 
 ---
 
-**Start building → [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post6&utm_content=cta-footer)** · Free credits on signup, no card required.
+**Start building → [api.meshs.one](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post6&utm_content=cta-footer)** · Free credits on signup, no card required.
 
 ---
 

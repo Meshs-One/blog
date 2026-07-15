@@ -72,7 +72,7 @@ DeepSeek V4 Flash's cached rate is an outlier — at $0.0028 per million input t
 - **DeepSeek**: Automatic for recent API versions — no header needed for v2+
 - **OpenAI**: `openai-beta: prompt-caching` (enabled by default for supported models)
 
-If you're using an API gateway, caching is usually enabled by default on supported models — no per-provider header management needed. On [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=prompt-caching-smart-routing-developer-guide&utm_content=caching-setup&utm_language=en), for example, DeepSeek V4 Flash, GPT-5.6, and Claude 4 Sonnet all have caching active out of the box under a single API key.
+If you're using an API gateway, caching is usually enabled by default on supported models — no per-provider header management needed. On [api.meshs.one](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=prompt-caching-smart-routing-developer-guide&utm_content=caching-setup&utm_language=en), for example, DeepSeek V4 Flash, GPT-5.6, and Claude 4 Sonnet all have caching active out of the box under a single API key.
 
 ---
 
@@ -219,7 +219,7 @@ def route_with_fallback(prompt, gateway_client):
     return response
 ```
 
-With a gateway like [Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=prompt-caching-smart-routing-developer-guide&utm_content=routing-setup&utm_language=en), both models are accessible under the same API key, the same authentication, and the same billing. The routing decision becomes a single parameter change, not a credential swap.
+With a gateway like [Meshs One](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=prompt-caching-smart-routing-developer-guide&utm_content=routing-setup&utm_language=en), both models are accessible under the same API key, the same authentication, and the same billing. The routing decision becomes a single parameter change, not a credential swap.
 
 ---
 

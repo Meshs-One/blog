@@ -99,7 +99,7 @@ For a mid-sized application processing 50 million output tokens a month:
 - Even with a more conservative 80% GPT-4 / 20% Claude mix: **$584 → $146.** Still 75% savings.
 - If you're using 5+ models in a production pipeline: **$1,700 → $340.**
 
-The economics are the same reason cloud computing beat on-premise data centers. When thousands of developers share infrastructure, everyone's unit cost drops. A gateway like [MeshsOne](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-why-overseas-developers-need-ai-api-gateway&utm_content=cost-section-link) handles the aggregation; you get the discount.
+The economics are the same reason cloud computing beat on-premise data centers. When thousands of developers share infrastructure, everyone's unit cost drops. A gateway like [MeshsOne](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=post-why-overseas-developers-need-ai-api-gateway&utm_content=cost-section-link) handles the aggregation; you get the discount.
 
 But cost isn't the only reason developers are switching.
 
@@ -133,7 +133,7 @@ When you're evaluating options, ask three things:
 2. **What happens when a model goes down?** If automatic failover isn't built in, you're taking on operational risk yourself.
 3. **Can I get started in under five minutes?** If their onboarding requires a sales call, it's not built for developers.
 
-[MeshsOne](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-why-overseas-developers-need-ai-api-gateway&utm_content=mid-article-bridge) is a production-grade gateway that checks all three boxes — and you can test that claim yourself in the next five minutes.
+[MeshsOne](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=post-why-overseas-developers-need-ai-api-gateway&utm_content=mid-article-bridge) is a production-grade gateway that checks all three boxes — and you can test that claim yourself in the next five minutes.
 
 ---
 
@@ -141,7 +141,7 @@ When you're evaluating options, ask three things:
 
 The best way to understand an AI API gateway isn't to read about it. It's to use one. Here's everything you need:
 
-**Step 1: Get a key.** Go to [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-why-overseas-developers-need-ai-api-gateway&utm_content=getting-started), create a free account. You get $5 in free credits — no credit card, no commitment.
+**Step 1: Get a key.** Go to [api.meshs.one](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=post-why-overseas-developers-need-ai-api-gateway&utm_content=getting-started), create a free account. You get $5 in free credits — no credit card, no commitment.
 
 **Step 2: Make your first call.** Copy this:
 
@@ -229,7 +229,7 @@ The code from this guide is open-source. Fork it, build with it, ship faster:
 
 ---
 
-**Start building → [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-why-overseas-developers-need-ai-api-gateway&utm_content=cta-footer)** · $5 free credit, no card required.
+**Start building → [api.meshs.one](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=post-why-overseas-developers-need-ai-api-gateway&utm_content=cta-footer)** · $5 free credit, no card required.
 
 ---
 

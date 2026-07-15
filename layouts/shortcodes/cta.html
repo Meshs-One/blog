@@ -12,7 +12,7 @@
 {{- $lang := .Page.Lang }}
 {{- $inline := .Get "inline" | default "false" }}
 {{- $utm := printf "utm_source=blog&utm_medium=post&utm_campaign=%s&utm_content=%s&utm_language=%s" $campaign $position $lang }}
-{{- $url := .Get "url" | default (printf "https://api.meshs.one/?%s" $utm) }}
+{{- $url := .Get "url" | default (printf "https://api.meshs.one/sign-up?aff=9med&%s" $utm) }}
 {{- if eq $inline "true" }}
 [{{ $text }}]({{ $url }})
 {{- else }}

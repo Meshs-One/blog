@@ -43,7 +43,7 @@ There's a simpler way: **one API key, one endpoint, all models**.
 
 ## Step 1: Get Your API Key (30 Seconds)
 
-Go to [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-ai-api-gateway-quickstart-5-minutes&utm_content=cta-body) → sign up → copy your key.
+Go to [api.meshs.one](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=post-ai-api-gateway-quickstart-5-minutes&utm_content=cta-body) → sign up → copy your key.
 
 ```
 sk-meshs-xxxx...   ← Your universal key
@@ -272,4 +272,4 @@ All the code from this guide is open-source. Fork it, build with it, ship faster
 
 ---
 
-**Start building → [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=post-ai-api-gateway-quickstart-5-minutes&utm_content=cta-footer)** · $5 free credit, no card required.
+**Start building → [api.meshs.one](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=post-ai-api-gateway-quickstart-5-minutes&utm_content=cta-footer)** · $5 free credit, no card required.

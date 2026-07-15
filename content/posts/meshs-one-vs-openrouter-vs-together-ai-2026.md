@@ -19,7 +19,7 @@ TocOpen: true
 
 ---
 
-I've spent the last few weeks running the same workload through three different AI API gateways: [OpenRouter](https://openrouter.ai), [Together AI](https://www.together.ai), and our own [Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post5&utm_content=intro-link).
+I've spent the last few weeks running the same workload through three different AI API gateways: [OpenRouter](https://openrouter.ai), [Together AI](https://www.together.ai), and our own [Meshs One](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post5&utm_content=intro-link).
 
 Yes, I work on Meshs One. I'm going to be upfront about that. But I'm also going to be honest about where each platform wins, because the worst thing a comparison post can do is pretend the competitor has no strengths. OpenRouter has real advantages. Together AI has real advantages. Here's what I found.
 
@@ -104,7 +104,7 @@ Meshs One negotiates bulk inference rates with model providers and passes the sa
 
 *Source: Meshs One official pricing page, 2026-06-22. Official rates from [OpenAI](https://openai.com/api/pricing/) and [Anthropic](https://www.anthropic.com/pricing), June 2026.*
 
-> Actual savings vary by model and volume. Check [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post5&utm_content=pricing-table) for real-time rates.
+> Actual savings vary by model and volume. Check [api.meshs.one](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post5&utm_content=pricing-table) for real-time rates.
 >
 > *Source: Meshs One official pricing page, 2026-06-22.*
 
@@ -170,7 +170,7 @@ Can't serve this workload — no Claude Sonnet 4. Would need a second provider f
 
 That's $7,848/year saved vs direct API. $8,388/year saved vs OpenRouter.
 
-Want to run these numbers on your own workload? The [pricing calculator](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post5&utm_content=cost-calc-cta) shows real-time rates across all 30+ models.
+Want to run these numbers on your own workload? The [pricing calculator](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post5&utm_content=cost-calc-cta) shows real-time rates across all 30+ models.
 
 ---
 
@@ -194,7 +194,7 @@ You want Claude, GPT, and Gemini at 50-80% below official pricing. You don't wan
 
 If you're already on OpenRouter, switching takes two minutes:
 
-1. **Get a key** at [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post5&utm_content=migration-step1) — $5 free credits, no card.
+1. **Get a key** at [api.meshs.one](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post5&utm_content=migration-step1) — $5 free credits, no card.
 
 2. **Change one line:**
 
@@ -272,7 +272,7 @@ A production-grade gateway processes data in transit and doesn't store prompts o
 
 ---
 
-**Start building → [api.meshs.one](https://api.meshs.one/?utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post5&utm_content=cta-footer)** · $5 free credit, no card required.
+**Start building → [api.meshs.one](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=content&utm_campaign=geo-round2-post5&utm_content=cta-footer)** · $5 free credit, no card required.
 
 ---
 

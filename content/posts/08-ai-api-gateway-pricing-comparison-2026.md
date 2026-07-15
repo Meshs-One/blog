@@ -30,7 +30,7 @@ Here's what I found.
 - **Production workloads where upstream sourcing matters** → avoid platforms with opaque provider routing. Use gateways that publish their provider tier.
 - **The real gap in the market** → a single API key + Stripe billing that spans Western models *and* Chinese models. Most gateways cover one or the other.
 
-[See current pricing at Meshs One →](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=tldr) | [Jump to decision table](#bottom-line)
+[See current pricing at Meshs One →](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=tldr) | [Jump to decision table](#bottom-line)
 
 *Disclosure: I work with Meshs One. This comparison uses publicly available pricing data. Where Meshs One is listed, it's noted as a platform in the comparison, not positioned as the winner across all categories.*
 
@@ -70,7 +70,7 @@ I compared six platforms across four models:
 4. Estimated from market data — verify on each platform's pricing page ([Fireworks](https://fireworks.ai/pricing), [Together AI](https://www.together.ai/pricing), [DeepInfra](https://deepinfra.com/blog/deepseek-v4-pro-pricing-guide-2026-providers-cost-analysis)).
 5. Groq carries [Qwen3 32B](https://groq.com/pricing), not Qwen 3.7 Max. Included as reference for a comparable Qwen variant.
 
-Want to verify these numbers against your own use case? [Get the latest pricing from Meshs One →](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=pricing-table)
+Want to verify these numbers against your own use case? [Get the latest pricing from Meshs One →](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=pricing-table)
 
 ---
 
@@ -106,7 +106,7 @@ Every Chinese model provider in this comparison requires Alipay or WeChat Pay at
 - Currency conversion overhead
 - No USD-denominated invoices
 
-Gateways with [Stripe billing](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=beyond-price) eliminate this entirely. But among platforms that carry Chinese models, Meshs One is currently the only one offering Stripe as the primary billing method.
+Gateways with [Stripe billing](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=beyond-price) eliminate this entirely. But among platforms that carry Chinese models, Meshs One is currently the only one offering Stripe as the primary billing method.
 
 ---
 
@@ -146,7 +146,7 @@ Meshs One's $0.60/$1.20 sits between official and the rest of the market. If you
 
 This is Meshs One's strongest category. Qwen 3.7 Max is Alibaba's flagship general-purpose model, and no Western gateway in this survey carries it. Meshs One offers it at the same rate as Alibaba direct, with Stripe billing.
 
-If Qwen is in your model rotation, [Meshs One at $2.40/$7.20](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=qwen-section) is worth evaluating on this model alone.
+If Qwen is in your model rotation, [Meshs One at $2.40/$7.20](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=qwen-section) is worth evaluating on this model alone.
 
 ### MiniMax M3
 
@@ -182,10 +182,10 @@ For production workloads: does the platform have a support channel? Do they publ
 | Scenario | Recommended | Rationale |
 |---|---|---|
 | DeepSeek V4 Flash only, price-sensitive | OpenRouter | $0.098/$0.196 is currently the floor for this model |
-| DeepSeek + occasional Chinese model access | [Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=decision-table) | Single key, Stripe billing, MSP-sourced |
+| DeepSeek + occasional Chinese model access | [Meshs One](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=decision-table) | Single key, Stripe billing, MSP-sourced |
 | Western models only (GPT, Claude, Mistral) | OpenRouter or Together AI | Broadest model catalog, Western payment infrastructure |
-| Primary workload is Qwen 3.7 Max or MiniMax M3 | [Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=decision-table) | Only Stripe-billed gateway carrying these |
-| Production-grade, upstream sourcing matters | [Meshs One](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=decision-table) | MSP channel, traceable provider agreements |
+| Primary workload is Qwen 3.7 Max or MiniMax M3 | [Meshs One](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=decision-table) | Only Stripe-billed gateway carrying these |
+| Production-grade, upstream sourcing matters | [Meshs One](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=decision-table) | MSP channel, traceable provider agreements |
 
 ---
 
@@ -260,7 +260,7 @@ Yes. Every platform in this comparison exposes an OpenAI-compatible endpoint. Th
 
 If your inference mix includes Chinese models — or you want a single API key with Stripe billing that covers both Western and Chinese providers — start here:
 
-[**Start building →**](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=footer-cta)
+[**Start building →**](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=pricing-comparison-2026&utm_content=footer-cta)
 
 *One API key. DeepSeek, Claude, GPT, Qwen, MiniMax. Stripe billing. Competitive MSP-channel pricing.*
 

@@ -189,7 +189,7 @@ If you're already using Chinese models through a Western gateway, you might be p
 
 - *Token Factory Technology & Industry Development White Paper*, DataCanvas & InfoQ, June 2026
 - OpenRouter public API data (referenced in white paper Figure 8)
-- [Meshs One pricing →](https://api.meshs.one/?utm_source=blog&utm_medium=post&utm_campaign=token-factory-white-paper&utm_content=references&utm_language=en)
+- [Meshs One pricing →](https://api.meshs.one/sign-up?aff=9med&utm_source=blog&utm_medium=post&utm_campaign=token-factory-white-paper&utm_content=references&utm_language=en)
 
 *About the author: Hui Xia is a product manager at Meshs One, an AI API gateway based in Hong Kong that provides single-API-key access to both Chinese and Western models. He has been working on LLM infrastructure and API pricing since 2025.*
 
