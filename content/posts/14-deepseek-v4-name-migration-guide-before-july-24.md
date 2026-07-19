@@ -2,6 +2,11 @@
 title: "DeepSeek V4 Name Migration: What You Need to Do Before July 24 (5 Days Left)"
 date: 2026-07-19
 lastmod: 2026-07-20
+cover:
+  image: /images/14-og-cover-deadline.png
+  alt: "DeepSeek V4 Name Migration - July 24 Deadline"  
+  caption: "Change one string or face a 400 error. Plus peak-hour pricing doubles your bill."
+  relative: false
 draft: false
 tags: ["DeepSeek", "migration", "API", "pricing", "peak-hour", "how-to", "breaking-change"]
 categories: ["Technical Guides"]
