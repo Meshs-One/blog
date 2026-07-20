@@ -9,7 +9,7 @@ series: ["AI API Best Practices"]
 author: "Meshs One Team"
 description: "Stop managing 5 different AI API keys. This 5-minute guide shows you how to access Claude, GPT-5, Gemini, DeepSeek, and 30+ models through one OpenAI-compatible endpoint — with code examples in Node.js, Python, and curl."
 cover:
-  image: ""
+  image: /images/03-og-cover.png
   alt: "AI API Gateway Quickstart Guide"
   caption: "One API key, 30+ models, zero lock-in"
 ShowToc: true
