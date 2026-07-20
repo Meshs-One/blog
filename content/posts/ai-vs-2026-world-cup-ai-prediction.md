@@ -7,6 +7,9 @@ tags: ["AI", "World Cup", "Machine Learning", "Football Prediction", "LLM", "Dat
 categories: ["analysis"]
 author: "Hui Xia"
 draft: false
+cover:
+  image: /images/11-og-cover.png
+  relative: false
 ---
 
 # AI vs the 2026 World Cup: 11 Models, 104 Matches, and the Surprising Winner
