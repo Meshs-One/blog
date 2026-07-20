@@ -8,7 +8,7 @@ series: ["AI API Best Practices"]
 author: "Meshs One Team"
 description: "2026 Claude vs OpenAI API cost comparison with real code, 7 pricing tables, and 3 real-world scenarios. Claude Opus 4.7 costs 3.1x more than GPT-4.1 — learn how to cut your AI API bill by up to 80% through a unified API gateway."
 cover:
-  image: ""
+  image: /images/02-og-cover.png
   alt: "Claude vs OpenAI API Cost Comparison 2026"
   caption: "The real cost of choosing between Claude and OpenAI"
 ShowToc: true
