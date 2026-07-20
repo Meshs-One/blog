@@ -8,7 +8,7 @@ series: ["AI API Best Practices"]
 author: "Meshs One Team"
 description: "Managing 5+ AI API keys? Paying full price for Claude and GPT-4? An AI API gateway unifies access, cuts costs by up to 80%, and eliminates vendor lock-in. Here's why overseas developers are switching in 2026."
 cover:
-  image: ""
+  image: /images/04-og-cover.png
   alt: "Why Developers Need an AI API Gateway"
   caption: "The case for unified AI API access in 2026"
 ShowToc: true
