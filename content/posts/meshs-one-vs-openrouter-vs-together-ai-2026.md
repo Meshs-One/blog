@@ -8,7 +8,7 @@ series: ["AI API Best Practices"]
 author: "Meshs One Team"
 description: "2026 comparison of Meshs One, OpenRouter, and Together AI: pricing, models, failover, and real cost calculations to help you pick the right AI API gateway."
 cover:
-  image: ""
+  image: /images/05-og-cover.png
   alt: "Meshs One vs OpenRouter vs Together AI Comparison"
   caption: "Three gateways, three philosophies — which one fits your stack?"
 ShowToc: true
