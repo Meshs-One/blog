@@ -9,7 +9,7 @@ series: ["AI API Best Practices"]
 author: "Meshs One Team"
 description: "DeepSeek V4 Flash vs Claude Sonnet 4 vs GPT-5.5: a data-driven comparison of benchmarks, pricing, speed, and when to use each model in production."
 cover:
-  image: ""
+  image: /images/07-og-cover.png
   alt: "DeepSeek V4 Flash Benchmark and Pricing Guide 2026"
   caption: "Data-driven comparison of DeepSeek V4 Flash vs Claude Sonnet 4 vs GPT-5.5"
 ShowToc: true
