@@ -7,6 +7,9 @@ tags: ["AI API", "Cost Optimization", "Prompt Caching", "Model Routing", "LLM", 
 categories: ["guides"]
 author: "Hui Xia"
 draft: false
+cover:
+  image: /images/09-og-cover.png
+  relative: false
 ---
 
 **Published: July 7, 2026.** All pricing figures in USD per 1M tokens. Cache pricing based on provider published rates as of July 2026. Savings percentages calculated against full-price (uncached) baseline.
