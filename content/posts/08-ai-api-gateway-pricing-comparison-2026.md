@@ -7,6 +7,9 @@ tags: ["AI API", "API Gateway", "Pricing Comparison", "DeepSeek", "Qwen", "MiniM
 categories: ["guides"]
 author: "Hui Xia"
 draft: false
+cover:
+  image: /images/08-og-cover.png
+  relative: false
 ---
 
 **Pricing verified: July 1, 2026.** All figures in USD per 1M tokens (input / output). Cache pricing, promotional credits, and volume discounts are excluded from the base comparison. Source links provided inline for verification.
