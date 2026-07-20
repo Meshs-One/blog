@@ -11,6 +11,9 @@ tags:
   - peak pricing
 slug: deepseek-v4-peak-pricing-save-money-no-code-changes
 translationKey: deepseek-peak-v4
+cover:
+  image: /images/12-og-cover.png
+  relative: false
 ---
 
 ## TL;DR
