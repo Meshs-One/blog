@@ -8,7 +8,7 @@ series: ["AI API Best Practices"]
 author: "Meshs One Team"
 description: "Stop training models. Start calling APIs. A practical guide for AI agent builders on why API gateways beat self-hosted models in 2026."
 cover:
-  image: ""
+  image: /images/01-og-cover.png
   alt: "AI API Selection Guide"
   caption: "Why API-first is the winning strategy for AI agent builders"
 ShowToc: true
