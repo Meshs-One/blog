@@ -8,7 +8,7 @@ series: ["AI API Best Practices"]
 author: "Meshs One Team"
 description: "A first-principles framework for choosing an AI API gateway in 2026: 8 evaluation criteria, 3 gateway types, and a decision matrix for your stack."
 cover:
-  image: ""
+  image: /images/06-og-cover.png
   alt: "How to Choose an AI API Gateway in 2026"
   caption: "A decision framework for multi-model API infrastructure"
 ShowToc: true
