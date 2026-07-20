@@ -7,6 +7,9 @@ tags: ["AI API", "Token Factory", "China AI", "API Gateway", "Cost Optimization"
 categories: ["analysis"]
 author: "Hui Xia"
 draft: false
+cover:
+  image: /images/10-og-cover.png
+  relative: false
 ---
 
 **Published: July 12, 2026.** All industry data quoted from the *Token Factory Technology & Industry Development White Paper* (DataCanvas & InfoQ, June 2026). White paper analysis report available on request.
