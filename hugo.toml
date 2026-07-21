@@ -172,6 +172,8 @@ googleAnalytics = 'G-6J2EJMDDT1'
 [params]
   # Site metadata
   author = 'Meshs One Team'
+  # Main content section(s) — used by the Archives page to list posts
+  mainSections = ["posts"]
   description = 'Technical deep-dives on AI API infrastructure, multi-model routing, and the token economy. Built by the team behind api.meshs.one.'
   keywords = ['AI API', 'API Gateway', 'Multi-model API', 'OpenRouter alternative', 'AI API relay', 'token economy', 'LLM API', 'Claude API', 'OpenAI API', 'Gemini API']
 

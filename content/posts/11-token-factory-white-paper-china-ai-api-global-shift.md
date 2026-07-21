@@ -10,6 +10,7 @@ draft: false
 cover:
   image: /images/10-og-cover.png
   relative: false
+aliases: ["/posts/11-token-factory-white-paper-china-ai-api-global-shift/"]
 ---
 
 **Published: July 12, 2026.** All industry data quoted from the *Token Factory Technology & Industry Development White Paper* (DataCanvas & InfoQ, June 2026). White paper analysis report available on request.

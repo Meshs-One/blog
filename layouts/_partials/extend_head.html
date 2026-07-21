@@ -26,6 +26,17 @@
         'page_language': '{{ .Lang }}',
         'page_path': '{{ .RelPermalink }}'
       });
+      // Fire sign_up intent from the blog CTA so the L4 funnel is measurable.
+      // NOTE: true account-creation sign_up must still be instrumented on
+      // api.meshs.one itself (cross-domain) — this is the blog-side proxy.
+      gtag('event', 'sign_up', {
+        'event_category': 'engagement',
+        'event_label': text,
+        'method': 'blog_cta',
+        'link_url': href,
+        'page_language': '{{ .Lang }}',
+        'page_path': '{{ .RelPermalink }}'
+      });
     }
 
     // Track social link clicks
