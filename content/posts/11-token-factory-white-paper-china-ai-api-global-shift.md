@@ -1,8 +1,8 @@
 ---
-title: "The Token Factory White Paper: Why China's AI API Advantage Is Structural, Not Just Cheap"
+title: "Token Factory: How China's AI API Is Going Global (2026)"
 slug: token-factory-white-paper-china-ai-api-global-shift
 date: 2026-07-12T10:00:00+08:00
-description: "China's AI cost advantage is 6-10× — and it's structural. This deep dive into the Token Factory white paper (DataCanvas & InfoQ, June 2026) reveals why US gateways can't match Chinese model pricing, and what 'Token Going Global' means for developers choosing an API gateway in 2026."
+description: "The Token Factory white paper explains China's AI API global shift — what it means for developers building with DeepSeek & Qwen."
 tags: ["AI API", "Token Factory", "China AI", "API Gateway", "Cost Optimization", "Industry Analysis", "DeepSeek", "AI Infrastructure", "Token Aggregator", "MaaS", "Cross-Border AI"]
 categories: ["analysis"]
 author: "Hui Xia"

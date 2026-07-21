@@ -1,7 +1,7 @@
 ---
-title: "How to Beat DeepSeek V4's Peak Pricing Without Changing Your Code"
+title: "DeepSeek V4 Peak Pricing: Cut Costs 30% (No Code Change)"
 date: 2026-07-15
-description: "DeepSeek V4's peak pricing doubles API costs during Beijing hours. Keep paying a fixed rate with one endpoint change — no scheduler rewrite needed. Includes price tables, code examples."
+description: "DeepSeek V4 peak/off-peak pricing explained. Save 30% on API bills with smart routing — zero code changes, one endpoint."
 tags:
   - DeepSeek V4
   - API pricing

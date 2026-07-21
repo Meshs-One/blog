@@ -1,12 +1,12 @@
 ---
-title: "How to Choose an AI API Gateway in 2026: A Decision Framework"
+title: "How to Choose an AI API Gateway in 2026 (Checklist)"
 date: 2026-06-26
 draft: false
 tags: ["AI API Gateway", "API Gateway Selection", "Multi-Model API", "AI Infrastructure", "API Proxy", "Developer Tools", "LLM Access"]
 categories: ["Industry Insights"]
 series: ["AI API Best Practices"]
 author: "Meshs One Team"
-description: "A first-principles framework for choosing an AI API gateway in 2026: 8 evaluation criteria, 3 gateway types, and a decision matrix for your stack."
+description: "10 factors to pick an AI API gateway: models, pricing, failover, latency, SLA. Avoid lock-in with one OpenAI-compatible endpoint."
 cover:
   image: /images/06-og-cover.png
   alt: "How to Choose an AI API Gateway in 2026"
