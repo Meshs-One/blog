@@ -7,6 +7,7 @@ tags: ["AI API", "API Gateway", "Pricing Comparison", "DeepSeek", "Qwen", "MiniM
 categories: ["guides"]
 author: "Hui Xia"
 draft: false
+translationKey: "post-08-ai-api-gateway-pricing-comparison-2026"
 cover:
   image: /images/08-og-cover.png
   relative: false

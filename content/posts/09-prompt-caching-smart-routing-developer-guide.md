@@ -7,6 +7,7 @@ tags: ["AI API", "Cost Optimization", "Prompt Caching", "Model Routing", "LLM", 
 categories: ["guides"]
 author: "Hui Xia"
 draft: false
+translationKey: "post-09-prompt-caching-smart-routing-developer-guide"
 cover:
   image: /images/09-og-cover.png
   relative: false

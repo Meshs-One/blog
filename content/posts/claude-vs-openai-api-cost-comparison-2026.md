@@ -2,6 +2,7 @@
 title: "Claude vs OpenAI API Pricing 2026: Side-by-Side Cost"
 date: 2026-06-22
 draft: false
+translationKey: "post-02-claude-vs-openai-api-cost-comparison-2026"
 tags: ["Claude API", "OpenAI API", "Cost Comparison", "API Pricing", "Developer Guide", "AI Cost Optimization"]
 categories: ["Technical Guides"]
 series: ["AI API Best Practices"]

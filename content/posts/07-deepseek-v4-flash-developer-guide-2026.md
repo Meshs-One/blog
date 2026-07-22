@@ -3,6 +3,7 @@ title: "DeepSeek V4 Flash API: Developer Guide & Code (2026)"
 date: 2026-06-29
 lastmod: 2026-06-29
 draft: false
+translationKey: "post-07-deepseek-v4-flash-developer-guide-2026"
 tags: ["DeepSeek", "benchmark", "pricing", "comparison", "AI API", "cost optimization"]
 categories: ["Technical Guides"]
 series: ["AI API Best Practices"]
