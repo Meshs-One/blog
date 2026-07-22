@@ -2,6 +2,7 @@
 title: "Why You Don't Need to Train Your Own Model — An AI Agent Builder's API Selection Guide"
 date: 2026-06-05
 draft: false
+translationKey: "why-you-dont-need-to-train-your-own-model"
 tags: ["AI API", "Model Selection", "Cost Optimization", "API Gateway", "Developer Guide"]
 categories: ["Technical Guides"]
 series: ["AI API Best Practices"]

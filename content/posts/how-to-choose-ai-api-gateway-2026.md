@@ -2,6 +2,7 @@
 title: "How to Choose an AI API Gateway in 2026 (Checklist)"
 date: 2026-06-26
 draft: false
+translationKey: "post-06-how-to-choose-ai-api-gateway-2026"
 tags: ["AI API Gateway", "API Gateway Selection", "Multi-Model API", "AI Infrastructure", "API Proxy", "Developer Tools", "LLM Access"]
 categories: ["Industry Insights"]
 series: ["AI API Best Practices"]

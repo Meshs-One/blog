@@ -3,6 +3,7 @@ title: "AI API Gateway Quickstart: One Key, 30+ Models in 5 Minutes"
 date: 2026-06-24
 lastmod: 2026-06-24
 draft: false
+translationKey: "post-03-ai-api-gateway-quickstart-5-minutes"
 tags: ["API Gateway", "AI API", "Quickstart", "Developer Guide", "Multi-Model", "OpenAI Compatible"]
 categories: ["Getting Started"]
 series: ["AI API Best Practices"]

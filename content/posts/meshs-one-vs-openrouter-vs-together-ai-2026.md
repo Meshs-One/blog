@@ -2,6 +2,7 @@
 title: "Meshs One vs OpenRouter vs Together AI: 2026 AI API Gateway Comparison"
 date: 2026-06-25
 draft: false
+translationKey: "post-05-meshs-one-vs-openrouter-vs-together-ai-2026"
 tags: ["AI API Gateway", "OpenRouter", "Together AI", "API Comparison", "Multi-Model API", "Developer Tools", "AI Cost Optimization"]
 categories: ["Industry Insights"]
 series: ["AI API Best Practices"]

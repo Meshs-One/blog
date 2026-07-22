@@ -2,6 +2,7 @@
 title: "Why Developers Use an AI API Gateway (Not Direct APIs)"
 date: 2026-06-24
 draft: false
+translationKey: "post-04-why-overseas-developers-need-ai-api-gateway"
 tags: ["AI API Gateway", "API Gateway", "Multi-Model API", "AI Cost Optimization", "Developer Tools", "LLM Access"]
 categories: ["Industry Insights"]
 series: ["AI API Best Practices"]
