@@ -80,7 +80,7 @@ Want to verify these numbers against your own use case? [Get the latest pricing 
 
 ## Beyond the Price Table — What Most Comparisons Miss
 
-If you stop at the table, you're missing the structural differences that matter in production.
+If you stop at the table, you're missing the structural differences that matter in production. Price is one of eight criteria we use to evaluate gateways — the rest are in our [how to choose an AI API gateway](/posts/how-to-choose-ai-api-gateway-2026/) framework.
 
 ### Model Availability Is the Real Gate
 
@@ -173,7 +173,7 @@ Four models from four providers means four API keys, four billing dashboards, fo
 
 ### SDK Compatibility
 
-All platforms in this comparison expose an OpenAI-compatible endpoint. The migration path is `base_url = "<platform-url>"`. The difference is in the details: how rate-limit headers are structured, what error codes are returned, and whether the platform maintains documentation parity with the OpenAI SDK.
+All platforms in this comparison expose an OpenAI-compatible endpoint. The migration path is `base_url = "<platform-url>"`. The difference is in the details: how rate-limit headers are structured, what error codes are returned, and whether the platform maintains documentation parity with the OpenAI SDK. If you want to see what a clean first integration looks like, our [5-minute API gateway quickstart](/posts/ai-api-gateway-quickstart-5-minutes/) walks through the one-line change.
 
 ### Support Surface Area
 

@@ -82,7 +82,7 @@ If you're using an API gateway, caching is usually enabled by default on support
 
 ## Part 2: Model Routing — The Obvious Strategy Nobody Implements
 
-If caching saves on input cost, routing saves on **model selection cost**. The idea is simple: don't use GPT-5.6 Terra for "summarize this one-line review" when DeepSeek V4 Flash can handle it just as well.
+If caching saves on input cost, routing saves on **model selection cost**. The idea is simple: don't use GPT-5.6 Terra for "summarize this one-line review" when DeepSeek V4 Flash can handle it just as well. Picking the right gateway to run that routing is a separate decision — our [how to choose an AI API gateway](/posts/how-to-choose-ai-api-gateway-2026/) framework covers it.
 
 Most teams still default to one model for everything. The reason is usually operational: managing multiple API keys, rate limits, and fallback logic is overhead. That overhead is real — but the cost of not routing is also real, and substantially larger.
 
@@ -243,7 +243,7 @@ These aren't theoretical. We ran these benchmarks on the Meshs One routing layer
 
 ## Try It on Meshs One
 
-If you want to test this strategy with a single API key:
+If you want to test this strategy with a single API key, our [5-minute API gateway quickstart](/posts/ai-api-gateway-quickstart-5-minutes/) gets you from zero to first call:
 
 {{< cta text="Get your API key →" position="final-cta" >}}
 

@@ -85,7 +85,7 @@ They also offer dedicated deployments with guaranteed throughput and [AWS Bring-
 
 The limitation is fundamental: **no proprietary models**. No Claude, no GPT-4, no Gemini. If your application needs Claude Opus 4.7 for complex reasoning, you need a second provider. Together AI can't serve that workload alone. For teams building multi-model API pipelines, this means maintaining two integrations.
 
-Pricing is competitive for open-weight hosting but not always cheapest. [DeepSeek V3.1 on Together AI](https://www.together.ai/pricing) costs $0.60/$1.70 per million input/output tokens (*source: Together AI pricing page, June 2026*) — roughly 2× what [DeepSeek's own API](https://platform.deepseek.com) charges. You're paying for US-based hosting and production tooling.
+Pricing is competitive for open-weight hosting but not always cheapest. [DeepSeek V3.1 on Together AI](https://www.together.ai/pricing) costs $0.60/$1.70 per million input/output tokens (*source: Together AI pricing page, June 2026*) — roughly 2× what [DeepSeek's own API](https://platform.deepseek.com) charges. You're paying for US-based hosting and production tooling. For a deep dive on DeepSeek's current flagship and how it benchmarks against Claude and GPT, see our [DeepSeek V4 Flash developer guide](/posts/07-deepseek-v4-flash-developer-guide-2026/).
 
 Also: no automatic failover. Together AI is a single-host platform. If their infrastructure has an issue, your requests wait until it recovers.
 
@@ -176,6 +176,8 @@ Want to run these numbers on your own workload? The [pricing calculator](https:/
 ---
 
 ## How to Choose an AI API Gateway
+
+Every team's situation is different, so we wrote a full [how to choose an AI API gateway](/posts/how-to-choose-ai-api-gateway-2026/) framework with eight evaluation criteria. The short version:
 
 ### Pick OpenRouter if:
 

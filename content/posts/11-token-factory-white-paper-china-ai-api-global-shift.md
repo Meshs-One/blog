@@ -77,7 +77,7 @@ China's western green electricity costs roughly **¥0.2/kWh** ($0.028). US indus
 
 ### 2. Algorithm Efficiency: MoE + Quantization
 
-DeepSeek's Mixture-of-Experts architecture and aggressive quantization techniques push inference cost to under 1/10 of industry averages. This is well-documented — DeepSeek V4 Flash achieves <$0.20/M tokens on input, with cached rates as low as $0.0028/M (see our [DeepSeek V4 Flash Developer's Guide](/posts/deepseek-v4-flash-developer-guide-2026/) for detailed pricing breakdowns).
+DeepSeek's Mixture-of-Experts architecture and aggressive quantization techniques push inference cost to under 1/10 of industry averages. This is well-documented — DeepSeek V4 Flash achieves <$0.20/M tokens on input, with cached rates as low as $0.0028/M (see our [DeepSeek V4 Flash Developer's Guide](/posts/07-deepseek-v4-flash-developer-guide-2026/) for detailed pricing breakdowns).
 
 ### 3. Engineering Scale
 
@@ -170,11 +170,11 @@ Here's what I want you to take away:
 
 **3. API gateways are a core industry role, not a middleman.** The white paper formally defines "Token Aggregators" as participants in the token value chain. This is a real category.
 
-**4. The SaaS→MaaS→AaaS shift means your API provider choice matters long-term.** If you're building on top of AI APIs today, you want a provider that can grow with you from raw API access to smart routing to agent-native infrastructure.
+**4. The SaaS→MaaS→AaaS shift means your API provider choice matters long-term.** If you're building on top of AI APIs today, you want a provider that can grow with you from raw API access to smart routing to agent-native infrastructure. Our [how to choose an AI API gateway](/posts/how-to-choose-ai-api-gateway-2026/) framework helps you weigh those long-term factors.
 
 If you're already using Chinese models through a Western gateway, you might be paying 2-3× more than necessary. The infrastructure exists to access them directly — the question is whether your payment method and workflow support it.
 
-**A quick math example:** If your team spends $1,000/month on GPT-5 API calls, switching to a comparable Chinese model (DeepSeek V4 Flash or Qwen 3.7 Max) through a direct gateway would cost **$100-170/month** for equivalent output. That's **$10,000-11,000/year in savings** — enough to hire a junior engineer or fund your entire agent-infra budget.
+**A quick math example:** If your team spends $1,000/month on GPT-5 API calls, switching to a comparable Chinese model (DeepSeek V4 Flash or Qwen 3.7 Max) through a direct gateway would cost **$100-170/month** for equivalent output. That's **$10,000-11,000/year in savings** — enough to hire a junior engineer or fund your entire agent-infra budget. If you want to try it, our [5-minute API gateway quickstart](/posts/ai-api-gateway-quickstart-5-minutes/) gets you a working key fast.
 
 {{< cta text="See how Meshs One compares →" position="bottom" >}}
 
@@ -183,7 +183,7 @@ If you're already using Chinese models through a Western gateway, you might be p
 ### Related reading on Meshs One Blog
 
 - [AI API Gateways 2026: Cheapest Access](/posts/ai-api-gateway-pricing-comparison-2026/) — Head-to-head pricing comparison across 10+ providers
-- [DeepSeek V4 Flash Developer's Guide](/posts/deepseek-v4-flash-developer-guide-2026/) — Detailed breakdown of China's most cost-efficient model
+- [DeepSeek V4 Flash Developer's Guide](/posts/07-deepseek-v4-flash-developer-guide-2026/) — Detailed breakdown of China's most cost-efficient model
 - [Why Overseas Developers Need an AI API Gateway](/posts/why-overseas-developers-need-ai-api-gateway/) — The case for multi-model aggregation
 - [OmniRoute vs Managed AI Gateways 2026](/posts/omni-route-vs-managed-gateway-2026/) — A architectural comparison for infrastructure decision-makers
 

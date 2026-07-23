@@ -36,7 +36,7 @@ On July 1, 2026, DeepSeek rolled out peak pricing for V4 Flash. It's simple: if 
 
 The peak window covers roughly 30% of the work week clock hours, but for any team with APAC user bases, peak traffic patterns mean 50–70% of your tokens will land during those windows. If your users are in Tokyo, Singapore, or Sydney, those hours hit right during your busiest traffic.
 
-Developer sentiment on this is mixed — some are angry about the change, some understand the rationale, and many are actively doing the math on alternatives. Whatever camp you're in, the math is the math: if you have significant daytime traffic, your bill just went up.
+Developer sentiment on this is mixed — some are angry about the change, some understand the rationale, and many are actively doing the math on alternatives. Whatever camp you're in, the math is the math: if you have significant daytime traffic, your bill just went up. If you're new to V4 Flash and want the full benchmark and pricing picture before optimizing around peak hours, start with our [DeepSeek V4 Flash developer guide](/posts/07-deepseek-v4-flash-developer-guide-2026/).
 
 ## The Bad Advice Everyone Is Handing Out
 
@@ -136,11 +136,11 @@ I want to be honest about the limitations. An API gateway isn't always the right
 
 4. **You've already built your own routing layer.** If you have a multi-provider fallback system, prompt caching, and cost optimization baked into your architecture, a gateway duplicates what you've already built.
 
-For everyone else — which is the vast majority of teams — the math and engineering trade-off favors a gateway.
+For everyone else — which is the vast majority of teams — the math and engineering trade-off favors a gateway. If you're still evaluating options, our [how to choose an AI API gateway](/posts/how-to-choose-ai-api-gateway-2026/) framework lays out the full decision process.
 
 ## Getting Started
 
-If you want to try this approach, here's a quick sanity test you can run in about 10 minutes:
+If you want to try this approach, here's a quick sanity test you can run in about 10 minutes — and if you haven't set up a gateway key yet, our [5-minute API gateway quickstart](/posts/ai-api-gateway-quickstart-5-minutes/) gets you from zero to first call.
 
 ```bash
 # Compare response quality and latency with a quick curl

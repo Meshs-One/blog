@@ -176,7 +176,7 @@ Here's what you get through a single integration:
 
 ## The Numbers: Where Meshs One Saves You Money
 
-Let's talk actual dollars. Because that's what matters at the end of the month.
+Let's talk actual dollars. Because that's what matters at the end of the month. DeepSeek V4 Flash is the standout cost play — we benchmarked it against Claude and GPT-5.5 in our [DeepSeek V4 Flash developer guide](/posts/07-deepseek-v4-flash-developer-guide-2026/).
 
 ### Head-to-Head: Popular Models
 
@@ -218,7 +218,7 @@ When you enable prompt caching on supported models, repeated inputs get billed a
 
 ## From Zero to API Call in 60 Seconds
 
-Here's how fast you can get started:
+Here's how fast you can get started — and if you want the condensed version, our [5-minute API gateway quickstart](/posts/ai-api-gateway-quickstart-5-minutes/) skips straight to the first call:
 
 ### Step 1: Get Your API Key
 
@@ -326,7 +326,7 @@ If you're building AI-powered applications in 2026, you don't need to:
 
 Meshs One gives you access to 40+ models — including the best Chinese AI models that are otherwise inaccessible to global developers — through a single OpenAI-compatible endpoint, at prices 50-80% lower than anywhere else.
 
-The code change is one line. The savings start on day one.
+The code change is one line. The savings start on day one. If you're comparing gateway options, our [how to choose an AI API gateway](/posts/how-to-choose-ai-api-gateway-2026/) framework breaks down what to evaluate before you commit.
 
 ---
 

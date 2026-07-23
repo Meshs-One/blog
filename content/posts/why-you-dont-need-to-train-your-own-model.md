@@ -73,7 +73,7 @@ API Gateway (Meshs One, GPT-4o level):
 
 ## The Real Problem: Model Selection, Not Model Training
 
-The actual bottleneck for AI agent builders isn't compute — it's **choosing the right model for each task**.
+The actual bottleneck for AI agent builders isn't compute — it's **choosing the right model for each task**. If you're deciding which gateway to run those models through, our [how to choose an AI API gateway](/posts/how-to-choose-ai-api-gateway-2026/) guide walks through the trade-offs.
 
 ### One Model Can't Do Everything
 
@@ -86,7 +86,7 @@ The actual bottleneck for AI agent builders isn't compute — it's **choosing th
 | Budget batch tasks | Qwen 3 / DeepSeek V3 | 1/10th the cost |
 | Vision understanding | GPT-5 Vision / Gemini 2.5 Vision | Multimodal accuracy |
 
-If you self-host one model, you're stuck with one tool for every job. That's like a carpenter only using a hammer.
+If you self-host one model, you're stuck with one tool for every job. That's like a carpenter only using a hammer. It's also why a single self-hosted model loses to a gateway: through one endpoint you get DeepSeek V4 Flash for code, Claude for reasoning, and GPT for multimodal — we benchmarked DeepSeek V4 Flash against Claude and GPT-5.5 in our [DeepSeek V4 Flash developer guide](/posts/07-deepseek-v4-flash-developer-guide-2026/).
 
 ### The API Gateway Advantage
 
@@ -96,6 +96,8 @@ An API gateway like [api.meshs.one](https://api.meshs.one) gives you:
 2. **Automatic fallback**: If Claude is slow, route to GPT
 3. **Cost optimization**: Use cheap models for drafts, premium models for final output
 4. **No vendor lock-in**: Switch models without changing code
+
+If you want to see this working end-to-end, our [5-minute API gateway quickstart](/posts/ai-api-gateway-quickstart-5-minutes/) takes you from zero to first call.
 
 ---
 
