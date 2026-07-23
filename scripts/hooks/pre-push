@@ -1,0 +1,22 @@
+#!/bin/sh
+# Meshs One i18n pre-push guard
+# Blocks `git push` when any EN blog post has broken translation pairing
+# (the silent regression that dropped EN canonical pages to 0 impressions).
+# Set MESHS_I18N_SKIP=1 to bypass (e.g. for unrelated infra pushes).
+
+if [ -n "$MESHS_I18N_SKIP" ]; then
+  echo "[i18n-guard] skipped (MESHS_I18N_SKIP set)"
+  exit 0
+fi
+
+ROOT="$(git rev-parse --show-toplevel)"
+PY="$(command -v python3 || command -v python)"
+
+if [ -z "$PY" ]; then
+  echo "[i18n-guard] python3 not found — SKIPPING check (push allowed)"
+  echo "[i18n-guard] WARNING: run scripts/check_i18n.py locally before deploy"
+  exit 0
+fi
+
+"$PY" "$ROOT/scripts/check_i18n.py"
+exit $?

@@ -1,8 +1,8 @@
 ---
-title: "AI vs the 2026 World Cup: 11 Models, 104 Matches, and the Surprising Winner"
+title: "AI vs 2026 World Cup: 11 Models Pick France to Win"
 slug: ai-vs-2026-world-cup-ai-prediction
 date: 2026-07-14T10:00:00+08:00
-description: "We tracked 11 AI models predicting every match of the 2026 World Cup. Some scored 100% on semi-finalists. Others completely bombed. Here's the full data, leaderboard, and what it means for developers building prediction systems."
+description: "We ran 11 AI models on 104 World Cup matches. Five nailed the semi-finalists; a Chinese model led the leaderboard. Full data & what it means for devs."
 tags: ["AI", "World Cup", "Machine Learning", "Football Prediction", "LLM", "Data Science", "Sports Analytics", "AI Prediction"]
 categories: ["analysis"]
 author: "Hui Xia"

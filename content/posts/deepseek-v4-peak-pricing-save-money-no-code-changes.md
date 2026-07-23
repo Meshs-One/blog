@@ -1,7 +1,7 @@
 ---
-title: "DeepSeek V4 Peak Pricing: Cut Costs 30% (No Code Change)"
+title: "DeepSeek V4 Peak Pricing: Skip 2x Rates, Zero Code Change"
 date: 2026-07-15
-description: "DeepSeek V4 peak/off-peak pricing explained. Save 30% on API bills with smart routing — zero code changes, one endpoint."
+description: "DeepSeek V4 peak hours double your bill. Route via one gateway and pay a flat rate - zero code changes. See the 10M-token cost math."
 tags:
   - DeepSeek V4
   - API pricing

@@ -1,8 +1,8 @@
 ---
-title: "Token Factory: How China's AI API Is Going Global (2026)"
+title: "Token Factory: China's AI API Is 6-10x Cheaper Globally"
 slug: token-factory-white-paper-china-ai-api-global-shift
 date: 2026-07-12T10:00:00+08:00
-description: "The Token Factory white paper explains China's AI API global shift — what it means for developers building with DeepSeek & Qwen."
+description: "China's AI inference costs 6-10x less than US. The Token Factory white paper explains the shift - and what it means for developers using DeepSeek & Qwen."
 tags: ["AI API", "Token Factory", "China AI", "API Gateway", "Cost Optimization", "Industry Analysis", "DeepSeek", "AI Infrastructure", "Token Aggregator", "MaaS", "Cross-Border AI"]
 categories: ["analysis"]
 author: "Hui Xia"

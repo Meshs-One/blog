@@ -1,5 +1,5 @@
 ---
-title: "AI API Gateway Quickstart: One Key, 30+ Models in 5 Minutes"
+title: "AI API Gateway Quickstart: One Key, 30+ Models, 5 Min"
 date: 2026-06-24
 lastmod: 2026-06-24
 draft: false
@@ -8,7 +8,7 @@ tags: ["API Gateway", "AI API", "Quickstart", "Developer Guide", "Multi-Model", 
 categories: ["Getting Started"]
 series: ["AI API Best Practices"]
 author: "Meshs One Team"
-description: "Stop managing 5 different AI API keys. This 5-minute guide shows you how to access Claude, GPT-5, Gemini, DeepSeek, and 30+ models through one OpenAI-compatible endpoint — with code examples in Node.js, Python, and curl."
+description: "One key, 30+ models. Get Claude, GPT-5, Gemini & DeepSeek running in 5 minutes via an OpenAI-compatible endpoint - copy-paste code included."
 cover:
   image: /images/03-og-cover.png
   alt: "AI API Gateway Quickstart Guide"
